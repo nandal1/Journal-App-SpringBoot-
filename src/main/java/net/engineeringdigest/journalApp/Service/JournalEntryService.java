@@ -20,9 +20,7 @@ public class JournalEntryService {
 
     @Autowired
     private JournalEntryRepository journalEntryRepository;
-
-
-
+    
     @Autowired
     private UserService userService;
 
