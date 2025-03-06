@@ -16,4 +16,8 @@ public class ConfigJournalAppEntity {
     private ObjectId id;
     private String key;
     private String value;
+
+
+
+
     }
