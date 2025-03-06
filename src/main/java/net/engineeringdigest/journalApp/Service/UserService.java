@@ -35,7 +35,7 @@ public class UserService {
             userRepository.save(user);
             return true;
         }catch (Exception e){
-                logger.info("Hey Adarsh!!");
+                logger.info("User Not Saved with encoded password!!");
             return false;
             }
 
