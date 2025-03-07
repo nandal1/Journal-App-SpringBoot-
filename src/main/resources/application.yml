@@ -23,8 +23,8 @@ spring:
 
 server:
   port: ${SERVER_PORT}
-  servlet:
-    context-path: /journal
+#  servlet:
+#    context-path: /journal
 
 weather:
   api:
