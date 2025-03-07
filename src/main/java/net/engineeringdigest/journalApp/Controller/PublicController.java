@@ -31,10 +31,18 @@ public class PublicController {
     @Autowired
     private JwtUtil jwtUtil;
 
+    @GetMapping("/health-check")
+    public String healthCheck() {
+        log.info("Health is ok !");
+        return "Ok";
+    }
+
     @GetMapping
     public List<User> getAllUsers(){
         return userService.getAll();
     }
+
+
 
     @PostMapping("/signup")
     public void signup(@RequestBody User user){
